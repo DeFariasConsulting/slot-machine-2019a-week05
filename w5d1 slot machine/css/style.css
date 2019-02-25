@@ -1,0 +1,13 @@
+section{
+  float: left;
+  width: 100%;
+}
+p{
+  float: left;
+  font-size: 4em;
+  margin: auto;
+  margin-left: 3%;
+}
+button{
+  margin-left: 10%;
+}
