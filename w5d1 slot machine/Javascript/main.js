@@ -1,4 +1,4 @@
-//to-do: Instead of min/max, use hard numbers like 5, 10, 15, etc. Get images for each reel option/name. Create border for each reel. Make blank or preloaded reels available and visible automatically, not just after clicking button. Style buttons so they're always in same spot and look better. Have effects when winning or losing, like spinning elements and some sort of confetti thing and a sound. Add background image.
+//to-do: Instead of min/max, use hard numbers like 5, 10, 15, etc. Get images for each reel option/name. Create border for each reel. Make blank or preloaded reels available and visible automatically, not just after clicking button. Style buttons so they're always in same spot and look better. Have effects when winning or losing, like spinning elements and some sort of confetti thing and a sound. Add background image. Add jackpot option using RC logo. Represent the bets and winnings using chips, alter accordingly as bank changes. Gray out bets bank can't afford. Have credit option.
 
 
 //Compare reel values with each other.
@@ -45,7 +45,6 @@ function betMinimum(){
   bank = bank + (payout*2)
   document.getElementById("bank").innerHTML= bank;
 }
-
 function betMaximum(){
   runReels();
   checkReels();

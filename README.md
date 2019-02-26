@@ -1,24 +1,17 @@
-# 🎰 Week05 Bootcamp2019a Project: Slot Machine
+# My Awesome Project
+This project's goal was to create a slot-machine with 3 reels, each with 5 options. The user is able to make a minimum and maximum bet, both of which have different payouts. Upon winning or losing, a message is presented.
 
-### Goal: Build a Simple Slot Machine
+![image](slot-machine.png)
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+## How It's Made:
 
-### How to submit your code for review:
+**Tech used:** HTML, CSS, JavaScript
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+This was a surprisingly simple code that used randommization to generate the reels and then had a function for checking the reels and for changing the HTML based on the results of the reels.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Optimizations
+This slot machine would be better if I had users input their starting bank and then bet different, pre-set amounts that had different pay-offs (and different success rates). I could also Get images for each reel option/name and have them styled to display in a way where each reel displays 3 options, the one that was chosen and the one that was "just before" or "just after" the chosen one. I could also have effects when winning or losing, like spinning elements and some sort of confetti thing and a sound. I could add a jackpot reel option that pays out much more than the others but is also much less frequent. Lastly, I could have different win conditions like if 2 of the reel options match or even maybe including the previously mentioned just before and just after reel options.
+
+## Lessons Learned:
+
+I learned that I can't have a conditional say (variable 1 == variable 2 == variable 3) but instead have to use the && operator and make variable 1 equal to both 2 and 3. I also learned another way of using math.random to add randomness to something that's not numbers.
